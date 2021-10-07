@@ -6,9 +6,10 @@ body {
 }
 h1 {
     color: #000000;
-    margin: 50px auto 0 auto;
+    margin: 0px auto 0 auto;
     font-size: 5.625em;
     font-family: 'Sacramento', cursive;
+   
 }
 
 h2 {
@@ -63,6 +64,8 @@ hr {
 .top-container { 
     background-color: #81b9b9;
     position: relative;
+    padding-top: 200px;
+    
 }
 
 .middle-container {
@@ -80,18 +83,25 @@ hr {
 
 .mount {
     position: relative;
-   
+    vertical-align: bottom;
+    width: 900px;
+    height: 575px;
 }
 
 .top {
-    position: relative;
-    left: 200px;
-    padding: 10px;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    right: 500px;
+    top: 50px;
 }
 
 .mid {
     position: absolute;
-    left: 400px;
+    width: 150px;
+    height: 150px;
+    left: 300px;
+    bottom: 400px;
 }
 
 .container {
@@ -104,6 +114,7 @@ hr {
 a {
     color: #000000;
     font-family: 'Merriweather', serif;
+    font-size: 0.8rem;
     margin: 10px 20px;
     text-decoration: none;
 }
