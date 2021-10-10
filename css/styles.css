@@ -88,18 +88,16 @@ hr {
 
 .top {
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 10%;
     right: 500px;
     top: 50px;
 }
 
 .mid {
     position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 300px;
-    bottom: 400px;
+    width: 10%;
+    left: 400px;
+    bottom: 300px;
 }
 
 .container {
